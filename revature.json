@@ -1,0 +1,50 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/com/revature/ArithmeticPresentationLayerTest.java",
+      "testCases": [
+        {
+          "methodName": "testAddConvertToStringPositives",
+          "label": "Verify addition output for two positive numbers",
+          "description": "Checks that addConvertToString correctly adds two positive numbers and returns the expected formatted string."
+        },
+        {
+          "methodName": "testAddConvertToStringNegatives",
+          "label": "Verify addition output for two negative numbers",
+          "description": "Ensures that addConvertToString correctly handles two negative numbers and returns the expected formatted string."
+        },
+        {
+          "methodName": "testAddConvertToStringPositiveNegative",
+          "label": "Verify addition output for mixed positive and negative numbers",
+          "description": "Tests that addConvertToString properly adds a positive and a negative number and formats the result as a string."
+        },
+        {
+          "methodName": "testMultiplyConvertToStringPositives",
+          "label": "Verify multiplication output for two positive numbers",
+          "description": "Checks that multiplyConvertToString correctly multiplies two positive numbers and returns the expected formatted string."
+        },
+        {
+          "methodName": "testMultiplyConvertToStringNegatives",
+          "label": "Verify multiplication output for two negative numbers",
+          "description": "Ensures that multiplyConvertToString properly handles multiplication of two negative numbers and formats the result correctly."
+        },
+        {
+          "methodName": "testMultiplyConvertToStringPositiveNegative",
+          "label": "Verify multiplication output for mixed positive and negative numbers",
+          "description": "Tests that multiplyConvertToString multiplies a positive and negative number and returns the correct formatted string."
+        },
+        {
+          "methodName": "testSquareConvertToStringPositive",
+          "label": "Verify square operation output for a positive number",
+          "description": "Checks that squareConvertToString correctly squares a positive number and returns the expected output string."
+        },
+        {
+          "methodName": "testSquareConvertToStringNegative",
+          "label": "Verify square operation output for a negative number",
+          "description": "Ensures that squareConvertToString correctly squares a negative number and formats the result as expected."
+        }
+      ]
+    }
+  ]
+}
